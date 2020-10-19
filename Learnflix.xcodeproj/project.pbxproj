@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,12 @@
 		75DE4A20253DC976005061DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DE4A1F253DC976005061DD /* ContentView.swift */; };
 		75DE4A22253DC97B005061DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DE4A21253DC97B005061DD /* Assets.xcassets */; };
 		75DE4A25253DC97B005061DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DE4A24253DC97B005061DD /* Preview Assets.xcassets */; };
+		75DE4A2E253DC996005061DD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DE4A2D253DC996005061DD /* HomeView.swift */; };
+		75DE4A32253DCBD3005061DD /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 75DE4A31253DCBD3005061DD /* KingfisherSwiftUI */; };
+		75DE4A35253DCC20005061DD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DE4A34253DCC20005061DD /* Movie.swift */; };
+		75DE4A38253DCCFB005061DD /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DE4A37253DCCFB005061DD /* StandardHomeMovie.swift */; };
+		75DE4A3B253DCDA2005061DD /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DE4A3A253DCDA2005061DD /* GlobalHelpers.swift */; };
+		75DE4A3E253DD1C9005061DD /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DE4A3D253DD1C9005061DD /* HomeVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,11 @@
 		75DE4A21253DC97B005061DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75DE4A24253DC97B005061DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75DE4A26253DC97B005061DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DE4A2D253DC996005061DD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		75DE4A34253DCC20005061DD /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		75DE4A37253DCCFB005061DD /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
+		75DE4A3A253DCDA2005061DD /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
+		75DE4A3D253DD1C9005061DD /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DE4A32253DCBD3005061DD /* KingfisherSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +66,11 @@
 			children = (
 				75DE4A1D253DC976005061DD /* LearnflixApp.swift */,
 				75DE4A1F253DC976005061DD /* ContentView.swift */,
+				75DE4A2D253DC996005061DD /* HomeView.swift */,
+				75DE4A3D253DD1C9005061DD /* HomeVM.swift */,
+				75DE4A34253DCC20005061DD /* Movie.swift */,
+				75DE4A37253DCCFB005061DD /* StandardHomeMovie.swift */,
+				75DE4A3A253DCDA2005061DD /* GlobalHelpers.swift */,
 				75DE4A21253DC97B005061DD /* Assets.xcassets */,
 				75DE4A26253DC97B005061DD /* Info.plist */,
 				75DE4A23253DC97B005061DD /* Preview Content */,
@@ -85,6 +102,9 @@
 			dependencies = (
 			);
 			name = Learnflix;
+			packageProductDependencies = (
+				75DE4A31253DCBD3005061DD /* KingfisherSwiftUI */,
+			);
 			productName = Learnflix;
 			productReference = 75DE4A1A253DC976005061DD /* Learnflix.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +132,9 @@
 				Base,
 			);
 			mainGroup = 75DE4A11253DC976005061DD;
+			packageReferences = (
+				75DE4A30253DCBD3005061DD /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 75DE4A1B253DC976005061DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DE4A3B253DCDA2005061DD /* GlobalHelpers.swift in Sources */,
+				75DE4A2E253DC996005061DD /* HomeView.swift in Sources */,
+				75DE4A3E253DD1C9005061DD /* HomeVM.swift in Sources */,
 				75DE4A20253DC976005061DD /* ContentView.swift in Sources */,
+				75DE4A38253DCCFB005061DD /* StandardHomeMovie.swift in Sources */,
+				75DE4A35253DCC20005061DD /* Movie.swift in Sources */,
 				75DE4A1E253DC976005061DD /* LearnflixApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +356,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75DE4A30253DCBD3005061DD /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75DE4A31253DCBD3005061DD /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75DE4A30253DCBD3005061DD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 75DE4A12253DC976005061DD /* Project object */;
 }
