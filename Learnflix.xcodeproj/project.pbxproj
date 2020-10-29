@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7578DBF9253F159A0002E9C0 /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7578DBF8253F15990002E9C0 /* TopMoviePreview.swift */; };
 		75DE4A1E253DC976005061DD /* LearnflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DE4A1D253DC976005061DD /* LearnflixApp.swift */; };
 		75DE4A20253DC976005061DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DE4A1F253DC976005061DD /* ContentView.swift */; };
 		75DE4A22253DC97B005061DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DE4A21253DC97B005061DD /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7578DBF8253F15990002E9C0 /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 		75DE4A1A253DC976005061DD /* Learnflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learnflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DE4A1D253DC976005061DD /* LearnflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnflixApp.swift; sourceTree = "<group>"; };
 		75DE4A1F253DC976005061DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				75DE4A1D253DC976005061DD /* LearnflixApp.swift */,
 				75DE4A1F253DC976005061DD /* ContentView.swift */,
 				75DE4A2D253DC996005061DD /* HomeView.swift */,
+				7578DBF8253F15990002E9C0 /* TopMoviePreview.swift */,
 				75DE4A3D253DD1C9005061DD /* HomeVM.swift */,
 				75DE4A34253DCC20005061DD /* Movie.swift */,
 				75DE4A37253DCCFB005061DD /* StandardHomeMovie.swift */,
@@ -166,6 +169,7 @@
 				75DE4A3E253DD1C9005061DD /* HomeVM.swift in Sources */,
 				75DE4A20253DC976005061DD /* ContentView.swift in Sources */,
 				75DE4A38253DCCFB005061DD /* StandardHomeMovie.swift in Sources */,
+				7578DBF9253F159A0002E9C0 /* TopMoviePreview.swift in Sources */,
 				75DE4A35253DCC20005061DD /* Movie.swift in Sources */,
 				75DE4A1E253DC976005061DD /* LearnflixApp.swift in Sources */,
 			);

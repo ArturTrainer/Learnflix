@@ -14,11 +14,21 @@ struct HomeView: View {
         ZStack{
             Color.black
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-        
+       
             ScrollView(showsIndicators: false) {
                 LazyVStack {
+                    Text("LEARNFLIX")
+                        .font(.title)
+                        .bold()
+                        .foregroundColor(.red)
+                        //.frame(width: 300, height: 30, alignment: .center)
+                        //.border(Color.white)
+                        //.padding()
+                        //.background(Color.white)
+                    
                     ForEach(vm.allCategories, id: \.self) {category in
                         VStack {
+                            
                             HStack {
                                 Text(category)
                                     .font(.title2)
